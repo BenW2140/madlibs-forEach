@@ -11,7 +11,7 @@ const togethers = ["person1","person2", "animal", "exclamation", "verb", "noun"]
 togethers.forEach(function(together) {
   const userInput = $("input#" + together).val();
   $("." + together).text(userInput);
-
+  
 })
 
 
